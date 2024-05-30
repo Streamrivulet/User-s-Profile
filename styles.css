@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.profiles {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.profile {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.profile img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.profile h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.profile p {
+    margin: 5px 0;
+}
+
+.profile a {
+    color: #38cc8c;
+    text-decoration: none;
+}
+
+.profile a:hover {
+    text-decoration: underline;
+}
